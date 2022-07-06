@@ -29,18 +29,18 @@ $> npm install
 $> npm run dotnet:build:(Debug|Release)
 ```
 
-### Publish
-
-```bash
-$> npm run dotnet:publish:(Debug|Release)
-```
-
-## Run
+### Run
 
 Open 2 terminals
 
 1. `$> npm start`
 1. `$> npm browser`
+
+### Publish
+
+```bash
+$> npm run dotnet:publish
+```
 
 ## CI/CD
 
