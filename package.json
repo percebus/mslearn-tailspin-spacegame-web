@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "npm:install:global": "npm install --location=global yarn open-cli gulp-cli",
-    "setup": "npm run npm:install:global && npm run dotnet:dev-certs:https",
-    "setup:ci": "npm run npm:install:global",
+    "npm:install:global:dev": "npm install --location=global yarn open-cli gulp-cli",
+    "npm:install:global:ci": "npm install --location=global yarn open-cli",
+    "setup": "npm run npm:install:global:dev && npm run dotnet:dev-certs:https",
+    "setup:ci": "npm run npm:install:global:ci",
     "yarn:licenses:list:prod": "yarn licenses list --prod > publish/LICENSES.txt",
     "yarn:licenses:generate-disclaimer:prod": "yarn licenses generate-disclaimer --prod > publish/LICENSES.md",
     "yarn:licenses:prod": "npm run yarn:licenses:list:prod && npm run yarn:licenses:generate-disclaimer:prod",
