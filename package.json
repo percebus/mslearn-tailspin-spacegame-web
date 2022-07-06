@@ -26,7 +26,7 @@
     "setup": "npm run npm:install:global && npm run dotnet:dev-certs:https",
     "setup:ci": "npm run npm:install:global",
     "postinstall": "npm run dotnet:restore",
-    "start": "npm run dotnet:run:Release:Tailspin.SpaceGame.Web",
+    "start": "npm run dotnet:run:Debug:Tailspin.SpaceGame.Web",
     "open-cli:5000": "open-cli http://localhost:5000",
     "open-cli:5001": "open-cli http://localhost:5001",
     "browser": "npm run open-cli:5000"

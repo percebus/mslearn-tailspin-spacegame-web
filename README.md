@@ -16,7 +16,7 @@ $> npm run setup
 $> npm install
 ```
 
-## `dotnet`
+## .NET
 
 ### Configurations
 
@@ -34,6 +34,13 @@ $> npm run dotnet:build:(Debug|Release)
 ```bash
 $> npm run dotnet:publish:(Debug|Release)
 ```
+
+## Run
+
+Open 2 terminals
+
+1. `$> npm start`
+1. `$> npm browser`
 
 ## CI/CD
 
